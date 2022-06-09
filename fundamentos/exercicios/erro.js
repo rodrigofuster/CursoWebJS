@@ -16,5 +16,5 @@ function imprimirNome(obj) {
   }
 }
 
-const obj = { name: "Roberto" };
+const obj = { nome: "Roberto" }; // pode ser corrigido usando name
 imprimirNome(obj);
