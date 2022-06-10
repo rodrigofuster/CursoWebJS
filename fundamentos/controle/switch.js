@@ -1,0 +1,3 @@
+const imprimirNota = function (nota) {
+    
+};
