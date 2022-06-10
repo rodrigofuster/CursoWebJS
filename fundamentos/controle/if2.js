@@ -5,7 +5,7 @@ function teste1(num) {
         console.log('final') // não está associado ao IF
     
 } 
- //teste1(6) 
+ teste1(6) 
 
  function teste2(num2) {
     if(num2 > 7 ) 
