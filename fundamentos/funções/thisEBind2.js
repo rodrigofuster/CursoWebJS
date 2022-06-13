@@ -10,4 +10,16 @@ function Pessoa() {
   );
 }
 
-new Pessoa();
+//new Pessoa();
+
+function Pessoa2() {
+  this.idade = 0;
+
+  const self = this;
+  setInterval(function () {
+    self.idade++;
+    console.log(self.idade);
+  }, 1000);
+}
+
+new Pessoa2();
