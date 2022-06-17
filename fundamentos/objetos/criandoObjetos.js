@@ -39,4 +39,6 @@ const filha = Object.create(null);
 filha.nome = "Ana";
 console.log(filha);
 
-//
+//Uma função famosa...
+const fromJSON = JSON.parse(`{"info": "Sou um JSON"}`);
+console.log(fromJSON.info);
