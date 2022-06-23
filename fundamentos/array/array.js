@@ -25,5 +25,5 @@ console.log(aprovados[1]);
 console.log(aprovados[2]);*/
 
 aprovados= ['Bia', 'Carlos', 'Ana'];
-aprovados.splice(1,2)
+aprovados.splice(0,3, 'João', 'Lucas')
 console.log(aprovados); 
