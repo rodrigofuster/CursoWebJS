@@ -8,7 +8,7 @@
 
   <body class="conteudo exercicio">
     <div>
-      <a href="https://google.com.br">Google</a>
+      <a esperar-5s href="https://google.com.br">Google</a>
     </div>
     <script>
       function navegarEm5s(e) {
@@ -17,8 +17,15 @@
         setTimeout(() => {
           const link = e.target;
           window.location.href = link.href;
-        });
+        }, 5000);
       }
+      //const a = document.querySelector('a') 
+      //a.onclick = navegarEm5s
+
+      // usando atributo especial
+      const a = document.querySelector('[esperar-5s')
+      a.onclik = navegarEm5s
+
     </script>
   </body>
 </html>
